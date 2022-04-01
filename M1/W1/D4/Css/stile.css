@@ -61,21 +61,22 @@ header li::before {
 #secondtitle {
     color:blueviolet;
     font-size: 35px;
+    margin-left: 25%;
 }
 #frec1 {
     color:brown;
     padding-top: 30px;
-    padding-right: 45%;
+    padding-right: 40%;
 }
 #frec2 {
     color:brown;
     padding-top: 30px;
-    padding-right: 45%;
+    padding-right: 40%;
 }
 #frec3 {
     color:brown;
     padding-top: 30px;
-    padding-right: 45%;
+    padding-right: 40%;
 }
 /* MAIN */
 body {
