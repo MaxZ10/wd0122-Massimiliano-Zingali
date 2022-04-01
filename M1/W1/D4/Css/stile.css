@@ -3,6 +3,8 @@ h1,h2,h3,p {
     font-weight: bold;
     padding-bottom: 15px;
     padding-top: 15px;
+    color:rgb(136, 9, 153);
+    font-size: 25px;
 }
 /* HEADER */
 header li {
@@ -47,6 +49,7 @@ ul li {
     list-style-type: none;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 18px;
 }
 
 ol li {
@@ -58,6 +61,7 @@ ol li {
 p {
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 18px;
 }
 
 
@@ -76,7 +80,16 @@ p {
 }
 
 #news {
-    sez
+    font-size: 30px;
+}
+
+#news::before {
+   content: '! <-- '; 
+}
+
+#news::after {
+    content: ' --> !';
+
 }
 
 /* TABELLE */
