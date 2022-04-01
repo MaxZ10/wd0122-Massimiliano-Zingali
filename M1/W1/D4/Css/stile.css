@@ -1,12 +1,93 @@
 /* IMPOSTAZIONI GENERALI */
-
+h1,h2,h3,p {
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
 /* HEADER */
+header li {
+    text-align: center;
+    list-style-type: none;
+}
+header li::after {
+    font-family: 'Alfa Slab One', cursive;
+    content: ' <=';
+}
+header li::before {
+    font-family: 'Alfa Slab One', cursive;
+    content: '=> '
+
+}
+#Titolone { 
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+#Logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
 
 /* MAIN */
+body {
+        font-family: 'Patua One', cursive;   
+}
+
+body {
+    background-color:lightsalmon;
+    width: 66vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    text-align: center;
+}
+
+
+ul li {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ol li {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30;
+}
+
+p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+#video1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+    text-align: center;
+    width: 54vw;
+    height: 30vw;
+    border: 5px;
+
+}
+
+#news {
+    sez
+}
+
 /* TABELLE */
+#Tabella-CSS { 
+    border-radius: 30%;
+    width: 66vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 100px;
+
+}
 
 /* FORM */
 
