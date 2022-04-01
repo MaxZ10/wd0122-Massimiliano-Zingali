@@ -42,8 +42,9 @@ header li::before {
 #Logo {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 35%;
-    padding-left: 40%;
+    padding-right: 45%;
+    padding-left: 35%;
+    size: 300px;
 }
 #logos2 {
     text-align: center;
@@ -61,7 +62,7 @@ header li::before {
 #secondtitle {
     color:blueviolet;
     font-size: 35px;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 #frec1 {
     color:brown;
