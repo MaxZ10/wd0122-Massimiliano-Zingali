@@ -1,13 +1,13 @@
 /* stili generali */
 body{
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'opens sans', 'sans-serif';
     font-size: 1.2rem;
     line-height: 1.65
 }
 
 h1 h2 h3{ 
     color:#25a2c3;
-    line-height: 1.5;
+    line-height: 1.65;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 
@@ -68,11 +68,11 @@ h1{
     font-weight: 700;
     color:#fff;
     text-decoration:none;
-    padding: 15px 30px;
+    padding: 10px 30px;
     border-radius:5px;
     cursor:hand;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -152,10 +152,39 @@ footer{
     color: #fff;
 }
 
+#contatto{
+    font-size: xx-large;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
 #phonelink{
     color: #fff;
+    font-weight: normal;
 }
 
 #andresslink{
     color: #fff;
+    font-weight: normal;
+}
+
+#streetlink{
+    font-weight: normal;
+}
+
+#divisore{
+    text-align: center;
+}
+
+#copyright{
+    font-size: smaller;
+    padding-bottom: 60px;
+    font-weight: normal;
+}
+
+#pixbay{
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
 }
