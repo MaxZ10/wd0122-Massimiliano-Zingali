@@ -16,8 +16,8 @@ h1 h2 h3{
 /* header */
 #testata{
     background-color: black;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
     
 
@@ -33,10 +33,11 @@ header, main, aside, footer {
     
     background-color: #cccc;
     width: 0 auto;
-    height: 270px;
+    height: 360px;
     background-image: url("../images/banner.jpg");
     background-size:cover;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -54,11 +55,18 @@ h1{
     font-family: 'Montserrat',sans-serif;
     color: #25a2c3;
     padding-top: 20px;
+    font-size: xx-large;
+    line-height: 1.1;
+}
+
+p{
+    font-size: larger;
 }
 
 .testo1{
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+    font-size: x-large;
 }
 
 
@@ -194,7 +202,7 @@ section div a{
     margin: 60px 20px auto;
     border-width: 1px;
     margin-top: -1px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     border-radius: 5px;
 }
 
