@@ -143,6 +143,56 @@ section div a{
 
 /* aside */
 
+#notebook1{
+    margin: 60px 20px auto;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    background-color: white;
+    border: gray;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+
+#titlearticle1{
+    margin-top: 1px;
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+#notebook2{
+    margin: 60px 20px auto;
+    border-width: 1px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    
+}
+
+#titlearticle2{
+    margin-top: 10px;
+    color:#25a2c3;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#titlearticle3{
+    margin-top: 10px;
+    color:#25a2c3;
+    font-weight: bold;
+}
+
+#notebook3{
+    margin: 60px 20px auto;
+    border-width: 1px;
+    margin-top: -1px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+
+
+
+
 /* footer */
 
 footer{
