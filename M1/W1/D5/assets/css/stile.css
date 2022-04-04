@@ -1,0 +1,78 @@
+/* stili generali */
+body{
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 1.2rem;
+    line-height: 1.65
+}
+
+h1 h2 h3{ 
+    color:#25a2c3;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+/* header */
+#testata{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+    
+
+
+/* main */
+
+header, main, aside, footer {
+    text-align: center;
+
+}
+
+#prima-section{
+    
+    background-color: #cccc;
+    width: 0 auto;
+    height: 210px;
+    background-image: url("../images/banner.jpg");
+    background-size:cover;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sfondo1{
+    width: 0 auto;
+    background-clip: padding-box;
+
+}
+
+
+h1{
+    font-family: 'Montserrat',sans-serif;
+    color: #25a2c3;
+}
+
+.testo1{
+    padding-top: 30px;
+}
+
+
+.bottone{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    text-decoration:none;
+    padding: 15px 30px;
+    border-radius:5px;
+    cursor:hand;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+
+/* aside */
+
+/* footer */
