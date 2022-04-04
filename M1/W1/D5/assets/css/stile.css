@@ -107,8 +107,8 @@ section div a{
 #notebook{
     margin: 60 30 auto;
     background-color: #fff;
-    height: 100%;
-    width: calc(100% - 80px);
+    max-height: 300px;
+    max-width: calc(100% - 70vw);
     border-radius: 100%;
     overflow: hidden;
     padding-top: 20px;
