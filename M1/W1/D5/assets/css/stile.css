@@ -33,12 +33,12 @@ header, main, aside, footer {
     
     background-color: #cccc;
     width: 0 auto;
-    height: 360px;
+    height: 310px;
     background-image: url("../images/banner.jpg");
     background-size:cover;
     margin-bottom: 45px;
-    margin-top: 20px;
-    padding-top: 10px;
+    margin-top: 0px;
+    padding-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -54,7 +54,8 @@ header, main, aside, footer {
 h1{
     font-family: 'Montserrat',sans-serif;
     color: #25a2c3;
-    padding-top: 20px;
+    padding-top:0px;
+    margin-top: -50px;
     font-size: xx-large;
     line-height: 1.1;
 }
@@ -132,8 +133,8 @@ section div a{
 
 #testimonial{
     background-color: #e22d0e;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding-bottom: 35px;
+    padding-top: 75px;
     font-size: larger;
     margin-top: 30px;
 }
@@ -141,6 +142,7 @@ section div a{
 #titolo6{
     color: #fff;
     padding-top: 40px;
+    padding-bottom: 20px;
     font-size: xx-large;
 }
 
@@ -160,13 +162,14 @@ section div a{
 /* aside */
 
 #notebook1{
-    margin: 60px 20px auto;
+    margin: 100px 30px auto;
     border-width: 1px;
     border-color: gray;
     border-style: solid;
     background-color: white;
     border: gray;
-    padding-bottom: 40px;
+    
+    padding-bottom: 60px;
     border-radius: 5px;
 }
 
