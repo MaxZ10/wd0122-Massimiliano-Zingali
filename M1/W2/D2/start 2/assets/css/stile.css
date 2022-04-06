@@ -173,6 +173,21 @@ aside div p:last-child {
     text-align: right;
 }
 
+.novità{
+    background-color:#a0a0a0;
+    height: 30px;
+    width: 100px;
+    border: #a0a0a0;
+    position: absolute;
+    left: 45px;
+    top: 1575px;
+    
+}
+
+#sect-news{
+    padding-top: 30px;
+}
+
 
 /* FOOTER */
 footer {
