@@ -1,0 +1,33 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+header {
+    background-image: url("../images/banner.jpg");
+    background-color: aliceblue;
+    background-position: center;
+    text-align: center;
+}
+
+button {
+    background: rgb(108,193,226);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(18,75,133,1) 62%, rgba(57,47,122,1) 96%);
+    color: white;
+}
+
+.header1{
+    height: 600px;
+}
+
+#Titolo1 {
+    color: white;
+    font-size: 4rem;
+}
+
+#sottotitolo1 {
+    color: white;
+}
+/* MAIN */
+
+/* FOOTER */
+
+/* RESPONSIVE */
