@@ -95,6 +95,7 @@ h1 {
 .subTitle1 {
     font-size: 1.5rem;
     color: white;
+    text-align: start;
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 25px;
@@ -110,6 +111,7 @@ h1 {
     margin-left: 7%;
     padding: 15px 25px 15px 25px;
     margin-bottom: 30px;
+    cursor: pointer;
     
 }
 
@@ -238,6 +240,7 @@ h4{
     color: white;    
     padding: 15px 25px 15px 25px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 /* CONTATTI */
@@ -268,6 +271,7 @@ h4{
     padding: 15px 25px 15px 25px;
     margin-bottom: 30px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 
