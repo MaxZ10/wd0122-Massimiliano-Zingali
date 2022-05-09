@@ -1,6 +1,6 @@
 /* IMPOSTAZIONI GENERALI */
 body{
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -26,6 +26,8 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    
+    
 }
 
 .nav-menu{
@@ -54,12 +56,12 @@ a{
     margin: 5px auto;
     -webkit-transition:all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: blue;
+    background-color: red;
 }
 
 
 
-/* MAIN */
+/* MAIN 1*/
 
 .header1{
     background-image: url("../images/banner.jpg");
@@ -81,19 +83,18 @@ a{
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.2rem;
     color: white;
     text-align: left;
     margin-left: 7%;
     padding-top: 50px;
     text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
-    z-index: 2;
+    
 }
 
-p {
+.subTitle1 {
     font-size: 1.5rem;
     color: white;
-    z-index: 2;
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 25px;
@@ -102,11 +103,10 @@ p {
 
 }
 
-.header1 button{
+.bottone1{
     background-image: linear-gradient(to right top, #6cc1e2, #489dcf, #3379b8, #32559c, #392f7a);
     font-size: 1.9rem;
     color: white;
-    z-index: 2;
     margin-left: 7%;
     padding: 15px 25px 15px 25px;
     margin-bottom: 30px;
@@ -121,6 +121,125 @@ button a{
     opacity:0.9;
     cursor: pointer;
 }
+
+/* MAIN 2 */
+svg{
+    margin-left: 45%;
+}
+
+h2{
+    font-size: 3.3rem;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+p{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    line-height: 1.7;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+    
+    
+}
+
+.section-WriteUs{
+    background-color: #0c0633;
+    text-align: center;
+    
+}
+
+.section-WriteUs h1{
+    text-align: center;
+    
+}
+.section-WriteUs button{
+    margin-right: 33px;
+}
+
+/* MAIN 2 */
+
+.notebook-img{
+    border-radius: 10px;
+    margin: 70px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flex-container2{
+    display:flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin-right: 17%;
+    margin-left: -30%;
+}
+
+/* FOOTER */
+
+h4{
+    text-align: start;
+    margin-left: 20%;
+    padding-top: 75px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-right: 9%;
+}
+
+.subTitle2{
+    text-align: start;
+    margin-left: 20%;
+}
+
+.footerHome{
+    background-color: rgb(238,238,238);
+    padding-bottom: 70px;
+}
+
+.flex-container3{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 16%;
+    
+}
+
+/* EMAIL BOX - BUTTON */
+.email-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    margin-right: 17vw;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.news-letter{
+    border: 1px solid black;
+    height: 60px;
+}
+
+.button-news{
+    background-image: linear-gradient(to right top, #6cc1e2, #489dcf, #3379b8, #32559c, #392f7a);
+    font-size: 1.9rem;
+    color: white;    
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 30px;
+}
+
+
 
 
 /* FOOTER */
