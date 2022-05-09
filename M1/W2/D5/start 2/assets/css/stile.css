@@ -239,6 +239,37 @@ h4{
     margin-bottom: 30px;
 }
 
+/* CONTATTI */
+
+.message{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 55px;
+    margin-top: 20px;
+
+}
+
+.message2{
+    height: 50px;
+    margin-top: 20px;
+   width: 80%;
+   margin-left: 9.5%
+    
+}
+
+.button-contact{
+    background-image: linear-gradient(to right top, #6cc1e2, #489dcf, #3379b8, #32559c, #392f7a);
+    font-size: 1.7rem;
+    color: white;
+    width: 60%;
+    margin-left: 20%;   
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
 
 
 
