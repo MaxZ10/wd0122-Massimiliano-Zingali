@@ -59,6 +59,11 @@ a{
     background-color: red;
 }
 
+.nav-link1{
+    background-image: linear-gradient(to right top, #6cc1e2, #489dcf, #3379b8, #32559c, #392f7a);
+    color: white;
+    padding: 7px;
+}
 
 
 /* MAIN 1*/
@@ -117,11 +122,12 @@ h1 {
 
 button a{
     color: white;
+    
 }
 
 .header1 button:hover{
     opacity:0.9;
-    cursor: pointer;
+    
 }
 
 /* MAIN 2 */
