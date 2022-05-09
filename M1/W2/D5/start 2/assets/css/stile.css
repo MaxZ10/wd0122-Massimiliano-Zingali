@@ -1,33 +1,130 @@
 /* IMPOSTAZIONI GENERALI */
+body{
+    font-family: 'Fira Sans';
+    font-size: 1.5rem;
+}
+
+
 
 /* HEADER */
-header {
-    background-image: url("../images/banner.jpg");
-    background-color: aliceblue;
-    background-position: center;
-    text-align: center;
+header{
+    background-color: snow;
 }
 
-button {
-    background: rgb(108,193,226);
-    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(18,75,133,1) 62%, rgba(57,47,122,1) 96%);
-    color: white;
+li{
+    list-style: none;
 }
 
-.header1{
-    height: 600px;
+a{
+    color:black;
+    text-decoration: none;
 }
 
-#Titolo1 {
-    color: white;
-    font-size: 4rem;
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
 }
 
-#sottotitolo1 {
-    color: white;
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
 }
+.nav-link{
+    transition: o.7s ease;
+}
+
+.nav-link:hover{
+    color: darkviolet;
+}
+
+.hamburger{
+    display:none;
+    cursor: pointer;
+}
+
+.bar{
+    display:block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition:all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: blue;
+}
+
+
+
 /* MAIN */
 
+.header1{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    box-shadow: #d3d3d3;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.header1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.6);
+    opacity: 0.3;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: left;
+    margin-left: 7%;
+    padding-top: 50px;
+    text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
+    z-index: 2;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+    z-index: 2;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
+
+}
+
+.header1 button{
+    background-image: linear-gradient(to right top, #6cc1e2, #489dcf, #3379b8, #32559c, #392f7a);
+    font-size: 1.9rem;
+    color: white;
+    z-index: 2;
+    margin-left: 7%;
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 30px;
+    
+}
+
+button a{
+    color: white;
+}
+
+.header1 button:hover{
+    opacity:0.9;
+    cursor: pointer;
+}
+
+
 /* FOOTER */
+
+
 
 /* RESPONSIVE */
