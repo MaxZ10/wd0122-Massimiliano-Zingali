@@ -207,6 +207,7 @@ h4{
 .footerHome{
     background-color: rgb(238,238,238);
     padding-bottom: 70px;
+    
 }
 
 .flex-container3{
@@ -272,9 +273,37 @@ h4{
 
 
 
+/* CHI SIAMO */
 
-/* FOOTER */
+ .notebook-img2{
+     width: 100%;
+     margin: 0 auto;
+
+ }
+
+ td, th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
 
 
+
+}
+
+h5{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d2dce7;
+    margin-bottom: 60px;
+}
+
+.tableC{
+   background-color: snow;
+}
 
 /* RESPONSIVE */
