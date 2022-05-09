@@ -46,3 +46,12 @@
         display: flex;
     }
 }
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
+    .flex-container2{
+        display: flex;
+        justify-content: start;
+        margin-left: 5%;
+    }
+
+}
