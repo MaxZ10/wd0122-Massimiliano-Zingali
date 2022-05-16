@@ -7,120 +7,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="/M1/W3/D3/style.css">
 </head>
-<body>
-    <section id="hero-area">
-        <img class="img-responsive" src="images/header.jpg" alt="">
-      </section>
-      <!--
-      Header start 
-      ============================== -->
-      <nav id="navigation">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="block">
-                          <nav class="navbar navbar-default">
-                            <div class="container-fluid">
-                              <!-- Brand and toggle get grouped for better mobile display -->
-                              <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                  <span class="sr-only">Toggle navigation</span>
-                                  <span class="icon-bar"></span>
-                                  <span class="icon-bar"></span>
-                                  <span class="icon-bar"></span>
-                                </button>
-                                    <a class="navbar-brand" href="#">
-                                      <img src="images/logo.png" alt="Logo">
-                                    </a>
-  
-                              </div>
-  
-                              <!-- Collect the nav links, forms, and other content for toggling -->
-                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                  <li><a href="#hero-area">Home</a></li>
-                                  <li><a href="#about-us">about us</a></li>
-                                  <li><a href="#blog">Blog</a></li>
-                                  <li><a href="#price">menu</a></li>
-                                  <li><a href="#subscribe">news</a></li>
-                                  <li><a href="#contact-us">contacts</a></li>
-                                </ul>
-                              </div><!-- /.navbar-collapse -->
-                            </div><!-- /.container-fluid -->
-                          </nav>
-                      </div>
-                  </div><!-- .col-md-12 close -->
-              </div><!-- .row close -->
-          </div><!-- .container close -->
-      </nav><!-- header close -->
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading">Latest <span>From</span> the <span>Blog</span></h1>
-                        <ul>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-1.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-2.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="500ms">
-                                <div class="content-left">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                                <div class="blog-img-2">
-                                    <img src="images/blog/blog-img-3.jpg" alt="blog-img">
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="600ms">
-                                <div class="content-left">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                                <div class="blog-img-2">
-                                    <img src="images/blog/blog-img-4.jpg" alt="blog-img">
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="700ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-5.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-6.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a class="btn btn-default btn-more-info wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">More Info</a>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section>
+<body> 
+    <div class="container2">
+        <input type="text" name="nome" id="nome" placeholder="Inserisci il tuo nome...">
+        <input type="text" name="nome" id="cognome" placeholder="Inserisci il tuo cognome...">
+        <input type="email" name="nome" id="email" placeholder="Inserisci la tua email...">
+        <input type="number" name="anni" id="anni" placeholder="Inserisci la tua età...">
+        <button type="button" onclick="registrati()">Registrati</button>
+    </div>
+
+    <div class="details">
+        <h3>Nome: <span id="detail_name"></span> </h3>
+        <h3>Cognome: <span id="detail_surname"></span> </h3>
+        <h3>Email</h3>: <span id="detail_email"></span> </h3>
+        <h3>Età</h3>: <span id="detail_age"></span> </h3>
+        <h3>Pensione tra: <span id="detail_pension"></span> </h3>
+
+    </div>
+    <hr>
+   
     
+    <hr>
+    <hr>
+    <div id="container"></div>
+    <h1>Esegui calcolo</h1>
+    <input type="number" id="number1" placeholder="Inserisci un numero">
+    <input type="number" id="number2" placeholder="Inserisci un numero">
+    <button type="button" onclick="somma()">Esegui calcolo</button>
+   <button type="button">+</button>
+   <button type="button">-</button>
+   <button type="button">*</button>
+   <button type="button">/</button>
+   <h2 id="result"> </h2>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>

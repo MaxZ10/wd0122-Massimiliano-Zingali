@@ -10,10 +10,14 @@ body {
   margin: 25px;
 }
 
+.clock {
+  color: white;
+}
+
 .calculator {
   background: black;
   border-radius: 50px;
-  color: white;
+  color: gold;
   height: 1218px;
   padding: 20px;
   position: relative;
@@ -57,16 +61,20 @@ body {
 }
 
 .button.function {
-  color: black;
-  background: #a5a5a5;
+  color: darkorchid;
+  background: gold;
+  font-weight: bold;
+  border-radius: 39%;
 }
 
 .button.operator {
-  background: #f1a33c;
+  background: #8a2be2;
+  font-weight: bold;
+  border-radius: 35%;
 }
 
 .button.number-0 {
-  border-radius: 55px;
+  border-radius: 25px;
   grid-column: 1 / span 2;
   justify-content: flex-start;
   padding-left: 43px;
@@ -75,7 +83,7 @@ body {
 
 .button:active,
 .button:focus {
-  filter: brightness(120%);
+  filter: brightness(110%);
 }
 
 .bottom {
