@@ -10,10 +10,10 @@
         
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 225px;
         gap: 0;
         flex-direction: column;
-        background-color: snow;
+        background-color: rgb(255, 250, 250,0.8);
         width: 100%;
         text-align: center;
         transition: o.3s;
@@ -31,13 +31,4 @@
         left: 0;
         display: flex;
     }
-}
-@media screen and (min-width: 769px) {
-    /* STYLES HERE */
-    .flex-container2{
-        display: flex;
-        justify-content: start;
-        margin-left: 5%;
-    }
-
 }
