@@ -10,11 +10,12 @@
         
         position: fixed;
         left: -100%;
-        top: 225px;
+        top: 70px;
         gap: 0;
+        margin-left: 3%;
         flex-direction: column;
         background-color: rgb(255, 250, 250,0.8);
-        width: 100%;
+        width: 94.5%;
         text-align: center;
         transition: o.3s;
         z-index: 100;
@@ -23,7 +24,9 @@
 
 
     .nav-item{
-        margin: 16px 0;
+        margin: 5px 0;
+        color: tan;
+
 
     }
 
