@@ -9,7 +9,11 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 let count = 4;
-let users = users.json;
+let users = [
+    { id: 1, name: 'Mario', lastname: 'Rossi', city: 'London', email: 'm.rossi@gmail.com', password: 'qwerty'},
+    { id: 2, name: 'Giuseppe', lastname: 'Verdi', city: 'Roma', email: 'g.verdi@gmail.com', password: '12345'},
+    { id: 3, name: 'Antonio', lastname: 'Bianchi', city: 'Milano', email: 'a.bianchi@gmail.com', password: 'abc123'}
+];
 
 //GET
 
