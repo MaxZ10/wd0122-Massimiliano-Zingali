@@ -27,6 +27,8 @@
               "src/assets"
             ],
             "styles": [
+              "ProjectAppAngular/node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "ProjectAppAngular/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
