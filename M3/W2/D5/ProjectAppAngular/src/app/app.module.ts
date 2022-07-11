@@ -3,20 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UsersPage } from './pages/users/users.page';
-import { NotFoundPage } from './pages/not-found/not-found.page';
-import { CompletedPage } from './pages/completed/completed.page';
+import { TodoComponent } from './todo/todo.component';
+import { CompletedComponent } from './completed/completed.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersPage,
-    NotFoundPage,
-    CompletedPage
+    TodoComponent,
+    CompletedComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

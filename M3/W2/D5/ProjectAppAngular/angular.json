@@ -3,12 +3,12 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProjectAppAngular": {
+    "prog_sett_10": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "css",
-          "skipTests": true}
+          "style": "scss"
+        }
       },
       "root": "",
       "sourceRoot": "src",
@@ -17,19 +17,18 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/project-app-angular",
+            "outputPath": "dist/prog_sett_10",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "ProjectAppAngular/node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "ProjectAppAngular/node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -70,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ProjectAppAngular:build:production"
+              "browserTarget": "prog_sett_10:build:production"
             },
             "development": {
-              "browserTarget": "ProjectAppAngular:build:development"
+              "browserTarget": "prog_sett_10:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ProjectAppAngular:build"
+            "browserTarget": "prog_sett_10:build"
           }
         },
         "test": {
@@ -91,12 +90,13 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }

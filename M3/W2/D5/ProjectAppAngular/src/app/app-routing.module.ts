@@ -1,30 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CompletedPage } from './pages/completed/completed.page';
-import { NotFoundPage } from './pages/not-found/not-found.page';
-import { UsersPage } from './pages/users/users.page';
+import {CompletedComponent} from './completed/completed.component'
+import {TodoComponent} from './todo/todo.component'
 
 const routes: Routes = [
   {
-    path:'accounts',
-    component: CompletedPage
-  },
-
-  {
-    path:'users',
-    component: UsersPage
-  },
-  {
     path: '',
-    pathMatch: 'full',
-    redirectTo: 'accounts'
+    redirectTo: 'todo',
+    pathMatch: 'full'
   },
-  {
-    path: '**',
-    component: NotFoundPage
-  }
-
-
+  {path: 'completed', component: CompletedComponent},
+  {path: 'todo', component: TodoComponent}
 ];
 
 @NgModule({
