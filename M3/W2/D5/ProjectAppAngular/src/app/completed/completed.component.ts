@@ -32,7 +32,7 @@ export class CompletedComponent implements OnInit {
       }
     }
     let elemento_p = this.document.createElement('p')
-    elemento_p.innerText = '...caricando i todo completati...'
+    elemento_p.innerText = 'caricando i todo completati'
     this.document.body.appendChild(elemento_p)
     setTimeout(() => {
       for (let index = 0; index < this.document.body.children.length; index++) {

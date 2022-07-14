@@ -1,0 +1,52 @@
+h1{
+   text-align: center;
+   padding-top: 50px;
+}
+
+.box-container{
+  height: 150px;
+
+}
+
+.box-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.dest1{
+   background-image: url(../../../img/Caribbean.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 100%;
+
+}
+
+.dest2{
+   background-image: url(../../../img/Corfu-Grecia.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 100%;
+}
+
+.dest3{
+  background-image: url(../../../img/Bangkok.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.dest4{
+  background-image: url(../../../img/san-jose.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.card{
+  border-radius: 2,5%;
+  border-style: 0.2px solid;
+  background-color: rgb(245, 245, 245,0.6);
+}
+
